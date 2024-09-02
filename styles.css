@@ -1,0 +1,90 @@
+:root {
+    --grey-900: #141414;
+    --grey-800: #1F1F1F;
+    --grey-700: #333333;
+    --green: #C4F82A;
+    --white: #FFFFFF;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf) format('truetype');
+
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inter;
+    box-sizing: border-box;
+
+
+
+
+}
+
+body {
+    background-color: var(--grey-900);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100svh;
+    padding: 24px;
+
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.card {
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: var(--grey-800);
+}
+
+img {
+    width: 88px;
+    height: 88px;
+    border-radius: 999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
